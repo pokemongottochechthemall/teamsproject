@@ -36,15 +36,60 @@ public class TEAMS{
 
 
         //############## MAIN MENU STARTS HERE ##############
-        int ans = 0;
 
-        while(ans != -1){
-            System.out.println("1. ");
-            ans += ans-1;
+        System.out.println("##### WELCOME #####");
+        int choice = 1;
+        while(choice > 0){
+            //Print the Menu
+            System.out.println("1) Option 1"); 
+            System.out.println("2) Option 2");
+            System.out.println("3) Option 3");
+            System.out.println("0) Exit");
+            System.out.println();//EMPTY LINE
+            //get the choice
+            System.out.println("Choice: ");
+            choice = sc.nextInt();
+            sc.nextLine();//You have to do this
+            if(choice  == 1){
+                optionOne();
+            }else if(choice == 2){
+                optionTwo();
+            }else if(choice == 3){
+                optionThree();
+            }
         }
+    }
+    public void setGrade(Course gra){
+        return gra
+    }
+    
+    public static void optionOne(){
+        System.out.println();
+    }
+    public static void optionTwo(){
+        System.out.println("DOING OPTION 2");
+    }
+    public static void optionThree(){
+        int choice = 1;
+        while(choice > 0){
+            //Print the Menu
+            System.out.print("#### OPTION 3 Menu ####");
+            System.out.println("1) Sub Option 1"); 
+            System.out.println("2) Sub Option 2");
+            System.out.println("3) Sub Option 3");
+            System.out.println("0) Exit");
+            System.out.println();//EMPTY LINE
+            //get the choice
+            System.out.println("Choice: ");
+            choice = sc.nextInt();
+            sc.nextLine();//You have to do this
+        }
+    }
+
+        
         
 
-    }
+    
 
     //#### DO NOT CHANGE THIS FUNCTION ####
     public static void saveData()throws Exception{
