@@ -7,33 +7,36 @@ public class Course implements Serializable{
     private boolean CurrentC;
 
     public Course(String sub,String tea,int gra,boolean cc){
-        this.Subject = sub;
-        this.Teacher = tea;
-        this.Grade = gra;
-        this.CurrentC = cc;
+        Subject = sub;
+        Teacher = tea;
+        Grade = gra;
+        CurrentC = cc;
 
     }
-    public void getGrade(int gra){
-        gra = 0;
+    public void setGrade(int gra){
+        Grade = gra;
     }
 
-    public int setGrade(int gra){
+    public int getGrade(int gra){
+        gra = 86;
         return gra;
     }
 
-    public void getSubject(String sub){
-        sub = "Math";
+    public void setSubject(String sub){
+        Subject = sub;
     }
 
-    public String setSubject(String sub){
+    public String getSubject(String sub){
+        sub = "Math";
         return sub;
     }
 
-    public void getTeacher(String tea){
-        tea = "Mis. Billy";
+    public void setTeacher(String tea){
+        Teacher = tea;
     }
 
-    public String setTeacher(String tea){
+    public String getTeacher(String tea){
+        tea = "Mis. Billy";
         return tea;
     }
 
@@ -47,8 +50,6 @@ public class Course implements Serializable{
 
         }
     
-    public void setCourse(int gra,String sub,String tea,boolean cc){
-    }
     }
 
 
