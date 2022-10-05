@@ -9,7 +9,6 @@ public class Teacher implements Serializable {
     public Teacher(String tname,int yox,String ct,String ft){
         teachername = tname;
         yearsofexperience = yox;
-        classtot = ct;
         favorateteacher = ft;
     }
 

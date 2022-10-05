@@ -41,9 +41,9 @@ public class TEAMS{
         int choice = 1;
         while(choice > 0){
             //Print the Menu
-            System.out.println("1) Option 1"); 
-            System.out.println("2) Option 2");
-            System.out.println("3) Option 3");
+            System.out.println("1) student"); 
+            System.out.println("2) teacher");
+            System.out.println("3) course");
             System.out.println("0) Exit");
             System.out.println();//EMPTY LINE
             //get the choice
@@ -59,30 +59,117 @@ public class TEAMS{
             }
         }
     }
-    public void setGrade(Course gra){
-        return gra
-    }
+    
     
     public static void optionOne(){
-        System.out.println();
+        System.out.println("na+gl+ft");
+        int choice = 1;
+        while(choice > 0){
+            choice =0;
+            System.out.println("1)new name");
+            choice = sc.nextInt();
+                sc.nextLine();
+            
+            while(choice >0){
+                System.out.println("1)eli");
+                System.out.println("2)john");
+                System.out.println("3)katie");
+                System.out.println("4)zach");
+                choice =0;
+                
+            }
+
+                choice = sc.nextInt();
+                sc.nextLine();
+                while(choice == 1){
+                    // public setname()
+                        // na = "eli"
+                        System.out.println("\n \n\n\n\nnew name is eli\n \n");
+                        choice =0;
+                }
+                while(choice == 2){
+                    // public setname()
+                        // na = "john"
+                        System.out.println("\n \n\n\n\nnew name is john\n \n");
+                        choice =0;
+
+                }
+                while(choice == 3){
+                    // public setname()
+                        // na = "katie"
+                        System.out.println("\n \n\n\n\nnew name is katie\n \n");
+                        choice =0;
+
+                }
+                while(choice == 4){
+                    // public setname()
+                        // na = "zach"
+                        System.out.println("\n \n\n\n\nnew name is zach\n \n");
+                        choice =0;
+                }
+                
+        }
     }
     public static void optionTwo(){
-        System.out.println("DOING OPTION 2");
+        System.out.println("\n \n\n\n\ntname+yox+ft\n \n");
+        
+        
+        
     }
     public static void optionThree(){
         int choice = 1;
         while(choice > 0){
             //Print the Menu
-            System.out.print("#### OPTION 3 Menu ####");
-            System.out.println("1) Sub Option 1"); 
-            System.out.println("2) Sub Option 2");
-            System.out.println("3) Sub Option 3");
+            System.out.println("sub+tea+gra");
+            System.out.println("#### new couses avalable ####");
+            System.out.println("1) computer sience");
+            System.out.println("2) history");
+            System.out.println("3) langue arts");
+            System.out.println("4) Math");
             System.out.println("0) Exit");
             System.out.println();//EMPTY LINE
             //get the choice
             System.out.println("Choice: ");
             choice = sc.nextInt();
             sc.nextLine();//You have to do this
+            while(choice == 1){
+                System.out.println("\n \n\n\n\nMr. Perdomo\n \n");
+                choice = 0; 
+                //if(tea =="Mr.Perdomo")
+                    //System.out.println("taking course"\n+sub+gra+ft)
+                //else;
+                // public setCourse()';
+                //  tea = "Mr.perdomo"
+                 
+            }
+            while(choice == 2){
+                System.out.println("\n \n\n\n\nMis. Megen\n \n");
+                choice = 0;
+                //if(tea =="Mis. Megen")
+                    //System.out.println("taking course"\n+sub+gra+ft)
+                //else;
+                // public setCourse()';
+                //  tea = "Mis. Megen"
+            }
+            while(choice == 3){
+                System.out.println("\n \n\n\n\nMr.Right\n \n");
+                choice =0;
+                //if(tea =="Mr.Right")
+                    //System.out.println("taking course"\n+sub+gra+ft)
+                //else;
+                // public setCourse()';
+                //  tea = "Mr.Right"
+            }
+            while(choice == 4){
+                System.out.println("\n \n\n\n\nMis.Billy\n \n");
+                choice = 0;
+                //if(tea =="Mis.Billy")
+                    //System.out.println("taking course"\n+sub+gra+ft)
+                //else;
+                // public setCourse()';
+                //  tea = "Mis.Billy"
+            }
+            
         }
     }
 
