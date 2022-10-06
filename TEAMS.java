@@ -63,30 +63,31 @@ public class TEAMS{
     
     
     public static void optionOne(){
-        System.out.println("na+gl");
+        System.out.println("\n\nna+gl");
         int choice = 1;
         while(choice >0){
             
-            System.out.println("1)new name");
-            System.out.println("1)new grade level");
-            System.out.println("favorate teacher is Mr.perdomo");
+            System.out.println("\n\n1)new name or new grade level\n");
+            System.out.println("favorate teacher is Mr.perdomo\n\n");
             choice =0;
             choice = sc.nextInt();
                 sc.nextLine();
             
             while(choice == 1){
+                System.out.println("\n\n\nchange student name\n");
                 System.out.println("1)eli");
                 System.out.println("2)john");
                 System.out.println("3)katie");
                 System.out.println("4)zach");
-                System.out.println("change grade level");        
+                System.out.println("\nchange grade level\n");        
                 System.out.println("5)9");
                 System.out.println("6)10");
                 System.out.println("7)11");
-                System.out.println("8)12");
+                System.out.println("8)12\n");
                 choice = 0;
                 choice = sc.nextInt();
                 sc.nextLine();
+                
                 
                 
             
@@ -121,7 +122,7 @@ public class TEAMS{
                         System.out.println("\n \n\n\n\nnew name is zach\n ");
                         choice =0;
                 
-                
+                }
                 
                 
             
@@ -156,11 +157,19 @@ public class TEAMS{
                 }
             }
         }
-    }
+    
         
     
     public static void optionTwo(){
-        System.out.println("\n \n\n\n\ntname+yox+ft\n ");
+        System.out.print("\n \n\n\n\n1)current teacher is ");
+        int choice = 1;
+        while(choice >0){
+            System.out.println("tname+yox\n ");
+            System.out.println("0)Exit\n ");
+            choice = sc.nextInt();
+            sc.nextLine();
+
+        }
         
         
         
